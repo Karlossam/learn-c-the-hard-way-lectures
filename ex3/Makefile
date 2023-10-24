@@ -1,5 +1,6 @@
 CFLAGS=-Wall -g
 
-clean:
-	rm -f ex3
+build: clean my_ex3	
 
+clean:
+	rm -f my_ex3
